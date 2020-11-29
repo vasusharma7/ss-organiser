@@ -4,7 +4,7 @@ Categorizes your screenshots (stores them in different app folders) as you captu
 
 **How to run**
 
-  *Fire up Terminal and execute - *
+  *Fire up Terminal and execute*
   
   > npm i -g electron
 
@@ -21,4 +21,6 @@ Categorizes your screenshots (stores them in different app folders) as you captu
   > npm run build
   
   The next time, the app will run automatically on startup in background!
+  
+  
   *Tested on Linux - fully functional, complete testing on Windows, Mac underway*
