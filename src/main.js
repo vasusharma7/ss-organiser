@@ -83,7 +83,7 @@ const save = (img) => {
       address = path.join(
         appPath(),
         result.owner.name,
-        result.title.replace("/", "-")
+        result.title.replace(/\//g, "-")
       );
     }
     if (!fs.existsSync(address)) {
