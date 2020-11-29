@@ -10,3 +10,5 @@ Categorizes your screenshots (stores them in different app folders) as you captu
   > electron .
   
   Then capture screenshot with shortcut - Ctrl+Shift+S
+
+  The next time, the app will run automatically on startup in background. !
