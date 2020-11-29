@@ -1,0 +1,25 @@
+{
+  "name": "screenshot-organiser",
+  "version": "1.0.0",
+  "productName": "SSOrgniser",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .  ",
+    "build": "rimraf SSOrganiser-* && electron-packager . --platform=linux --arch=x64  --icon=ss"
+  },
+  "keywords": [],
+  "author": "Vasu Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.0.3"
+  },
+  "dependencies": {
+    "active-win": "^6.2.0",
+    "auto-launch": "^5.0.5",
+    "loadash": "^1.0.0",
+    "moment": "^2.29.1",
+    "screenshot-desktop": "^1.12.3",
+    "shelljs": "^0.8.4"
+  }
+}
