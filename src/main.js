@@ -69,7 +69,7 @@ function getFileName() {
   var stillUtc = moment.utc(date).toDate();
   var local = moment(stillUtc).local().format("YYYY-MM-DD HH:mm:ss");
 
-  return local + ".png";
+  return local + ".jpg";
 }
 
 const appPath = () => path.join(app.getPath("pictures"), "SSOrganiser");
